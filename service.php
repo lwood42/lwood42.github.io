@@ -10,7 +10,7 @@ if (mysqli_connect_errno())
 }
  
 // This SQL statement selects ALL from the table 'Employees'
-$sql = "SELECT * FROM Employees";
+$sql = "SELECT * FROM employeeTest";
  
 // Check if there are results
 if ($result = mysqli_query($con, $sql))
